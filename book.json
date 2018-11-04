@@ -1,0 +1,41 @@
+{
+    "title": "Milker's Notes",
+    "description": "Life is short",
+    "author": "Milker",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+    "links": {
+    "sidebar" : {
+        "Home" : "http://zhangjikai.com"
+    }
+
+    },
+    "plugins": [
+        "disqus",
+        "edit-link",
+	"splitter",
+	"tbfed-pagefooter",
+	"atoc"
+    ],
+
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "milker"
+        },
+        "edit-link": {
+            "base": "https://github.com/huangwjwork/gitbook/edit/master",
+            "label": "Edit"
+        },
+	"tbfed-pagefooter": {
+		"copyright":"@Milker",
+  		"modify_label": "Edit At：",
+  		"modify_format": "YYYY-MM-DD HH:mm:ss"
+	},
+	"atoc": {
+		"addClass": true,
+            	"className": "atoc"
+	}
+    }
+}
